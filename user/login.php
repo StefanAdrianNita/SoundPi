@@ -13,7 +13,7 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="custom.css" type="text/css" />
+    <link rel="stylesheet" href="../custom.css" type="text/css" />
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -57,12 +57,12 @@
                 if($num_rows > 0){
                     echo "
                     <p class='profiletext'>Logged successfully. Go to your account.</p>
-                    <a href='index.php?k=profile' class='loginbtn'>My Account</a>
+                    <a href='../index.php?k=profile' class='loginbtn'>My Account</a>
                     ";
                     $_SESSION["username"] = $username;
                 }
                 else{
-                    header("location: /index.php?k=profile&cmd=login&error=y");
+                    header("location: ../index.php?k=profile&cmd=login&error=y");
                 }
                 ?>
             </div>
@@ -71,16 +71,16 @@
 
     <div class="container-fluid d-flex justify-content-between fixed-bottom bottombar">
         <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
-            <a href="index.php?k=songs" class="btn-link">My Songs</a>
+            <a href="../index.php?k=songs" class="btn-link">My Songs</a>
         </div>
         <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
-            <a href="index.php?k=albums" class="btn-link">Albums</a>
+            <a href="../index.php?k=albums" class="btn-link">Albums</a>
         </div>
         <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
-            <a href="index.php?k=upload" class="btn-link">Upload</a>
+            <a href="../index.php?k=upload" class="btn-link">Upload</a>
         </div>
         <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
-            <a href="index.php?k=profile" class="btn-link">Profile</a>
+            <a href="../index.php?k=profile" class="btn-link">Profile</a>
         </div>
     </div>
 </body>

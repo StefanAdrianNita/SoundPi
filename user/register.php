@@ -1,7 +1,3 @@
-<?php
-    session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +9,7 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="custom.css" type="text/css" />
+    <link rel="stylesheet" href="../custom.css" type="text/css" />
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -41,31 +37,48 @@
         <div class='container align-self-center pt-5 text-center'>
             <div class='container align-self-center'>
                 <?php
-                    unset($_SESSION["username"]);
+                $conn = new mysqli("localhost", "admin", "1234", "SoundPi");
 
+                if ($conn->connect_error) {
+                    die("Connection failed: " . $conn->connect_error);
+                }
+
+                $username = $_POST["username"];
+                $email = $_POST["email"];
+                $password = $_POST["password1"];
+                $password = md5($password);
+
+                $result = $conn->query("INSERT INTO users (username,passwd,email) VALUES ('$username','$password','$email')");
+                if ($result == false) {
+                    echo "<p class='profiletext' style='color: red; font-size:30px;'>This username already exists.</p>";
                     echo "
-                    <p class='profiletext'>Logged out successfully. Return to the HomePage.</p>
-                    <a href='index.php' class='loginbtn'>HomePage</a>
+                        <p class='profiletext'>If you already have an account. Go to Login.</p>
+                        <a href='index.php?k=profile' class='loginbtn'>Go back</a>
+                        ";
+                } else {
+                    echo "
+                        <p class='profiletext'>You registered successfully. Now go back and login in your account.</p>
+                        <a href='../index.php?k=profile' class='loginbtn'>Go back</a>
                     ";
-
-                
+                }
+                $conn->close();
                 ?>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid d-flex justify-content-around fixed-bottom bottombar">
+    <div class="container-fluid d-flex justify-content-between fixed-bottom bottombar">
         <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
-            <a href="index.php?k=songs" class="btn-link">Songs</a>
+            <a href="../index.php?k=songs" class="btn-link">My Songs</a>
         </div>
         <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
-            <a href="index.php?k=albums" class="btn-link">Albums</a>
+            <a href="../index.php?k=albums" class="btn-link">Albums</a>
         </div>
         <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
-            <a href="index.php?k=Upload" class="btn-link">Upload</a>
+            <a href="../index.php?k=Upload" class="btn-link">Upload</a>
         </div>
         <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
-            <a href="index.php?k=profile" class="btn-link">Profile</a>
+            <a href="../index.php?k=profile" class="btn-link">Profile</a>
         </div>
     </div>
 </body>

@@ -95,7 +95,7 @@ session_start();
                         <div class='container align-self-center pt-5 text-center'>
                             <div class='container align-self-center'>
                             <p class='profiletext' style='font-size:40px;'>Registration</p>
-                                <form action='register.php' method='post'>
+                                <form action='user/register.php' method='post'>
                                     <p class='profiletext'>Username</p>
                                     <input type='text' name='username' id='username' onchange='check_pass();'>
                                     <br><br>
@@ -126,7 +126,7 @@ session_start();
                     <div class='container align-self-center pt-5 text-center'>
                         <div class='container align-self-center'>
                         <p class='profiletext' style='font-size:40px;'>Login</p>
-                            <form action='login.php' method='post'>
+                            <form action='user/login.php' method='post'>
                                 <p class='profiletext'>Username</p>
                                 <input type='text' name='username' id=''>
                                 <br><br>
@@ -156,7 +156,7 @@ session_start();
                     <div class='container-fluid desktopversion'>
                         <div class='container-fluid d-flex justify-content-between pt-2' style='border-bottom: 2px solid #232323;'>
                             <p class='profiletext' style='font-size:40px;'>Welcome, " . $_SESSION["username"] . "!</p>
-                            <a href='logout.php' class='btn-link pt-2'>Logout</a>
+                            <a href='user/logout.php' class='btn-link pt-2'>Logout</a>
                         </div>
                     </div>
                     ";
@@ -166,7 +166,7 @@ session_start();
                     <div class='container-fluid mobileversion'>
                         <div class='container-fluid text-center pt-2' style='border-bottom: 2px solid #232323;'>
                             <p class='profiletext' style='font-size:35px;'>Welcome, " . $_SESSION["username"] . "!</p>
-                            <a href='logout.php' class='btn-link'>Logout</a>
+                            <a href='user/logout.php' class='btn-link'>Logout</a>
                             <br>
                         </div>
                     </div>
