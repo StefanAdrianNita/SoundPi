@@ -31,3 +31,28 @@ Get your phone or any device that has a browser and a wifi connection and go to 
 If you don't have an account you can register here (email is used only for the password recover "still work in progess").
 
 ### Other features coming soon...
+
+## Roadmap
+Last uploaded on 25/03/2021 12:51
+
+### ![bar.png](https://progress-bar.dev/100/?width=100) - v0.1 Created Registration and Login System with MySQL Database - 
+- ![bar.png](https://progress-bar.dev/100/?width=200) Database (MySQL)
+- ![bar.png](https://progress-bar.dev/100/?width=200) Registration Page (HTML/CSS/JS)
+- ![bar.png](https://progress-bar.dev/100/?width=200) Login Page (HTML/CSS/JS)
+- ![bar.png](https://progress-bar.dev/100/?width=200) Registration Script (user/Register.php)
+- ![bar.png](https://progress-bar.dev/100/?width=200) Login Script (user/Login.php)
+
+### ![bar.png](https://progress-bar.dev/100/?width=100) - v0.2 Created Sessions System 
+
+### ![bar.png](https://progress-bar.dev/25/?width=100) - v0.3 Albums Upload and Managements 
+- ![bar.png](https://progress-bar.dev/100/?width=200) Database (MySQL)
+- ![bar.png](https://progress-bar.dev/20/?width=200) Albums Catalog Page (HTML/CSS/JS)
+- ![bar.png](https://progress-bar.dev/0/?width=200) "Add Album" page (HTML/CSS/JS)
+- ![bar.png](https://progress-bar.dev/0/?width=200) Albums Adding Script connection to Database
+- ![bar.png](https://progress-bar.dev/0/?width=200) Show database results to "Albums" Page
+
+### ![bar.png](https://progress-bar.dev/50/?width=100) - v0.4 Song Upload
+- ![bar.png](https://progress-bar.dev/100/?width=200) Database (MySQL)
+- ![bar.png](https://progress-bar.dev/100/?width=200) Upload Page (HTML/CSS/JS)
+- ![bar.png](https://progress-bar.dev/0/?width=200) Song Upload Script connection to Database
+- ![bar.png](https://progress-bar.dev/0/?width=200) Show songs in "Songs" page
