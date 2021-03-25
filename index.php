@@ -39,10 +39,15 @@ session_start();
     </div>
 
     <?php
+    //IF GET IS EMPTY (SHOW HOMEPAGE)
     if (!isset($_GET)) {
+        //WORK IN PROGRESS
     } else {
+        //IF USER CLICKS PROFILE(SHOW PROFILE PAGE)
         if ($_GET["k"] == "profile") {
+            //IF THERE ISN'T ANY SESSIONS
             if (!isset($_SESSION["username"])) {
+                //IF NO CMD IS CHOOSED SHOW LOGIN/REGISTER PAGE
                 if (!isset($_GET["cmd"])) {
                     echo "
                     <div class='container-fluid d-flex'>
@@ -58,7 +63,7 @@ session_start();
                     </div>
                     ";
                 }
-
+                //IF USER CHOOSED REGISTER
                 if ($_GET["cmd"] == "register") {
                     echo "
 
@@ -119,7 +124,7 @@ session_start();
                     </div>
                         ";
                 }
-
+                //IF USER CHOOSED LOGIN
                 if ($_GET["cmd"] == "login") {
                     echo "
                     <div class='container-fluid d-flex'>
@@ -173,7 +178,7 @@ session_start();
                     ";
             }
         }
-
+        //IF USER GOES TO UPLOAD (SHOW UPLOAD PAGE)
         if ($_GET["k"] == "Upload") {
             echo "
                     <div class='container-fluid text-center pt-2 pb-2 desktopversion'>
@@ -233,7 +238,7 @@ session_start();
         }
     }
     ?>
-
+    <!-- BOTTOM BAR (SONGS ALBUMS UPLOAD PROFILE)-->
     <div class="container-fluid d-flex justify-content-around fixed-bottom bottombar">
         <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
             <a href="index.php?k=songs" class="btn-link">Songs</a>
