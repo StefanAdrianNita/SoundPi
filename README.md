@@ -7,7 +7,7 @@ This project was born to help people with old Hi-Fi Audio Systems with the probl
 With SoundPi you can leave the work to your Raspberry Pi for:
 
 - Keeping your songs in memory
-- Organize your albums
+- Organize your albums/songs and playlists
 - Keep track of your or your family favorite songs and playlists
 
 ## Installation
