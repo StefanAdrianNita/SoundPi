@@ -1,4 +1,12 @@
 # SoundPi
+![lastupdate](https://img.shields.io/badge/Last%20commit-25--03--2021-yellow?style=for-the-badge)
+![lastupdate](https://img.shields.io/badge/Last%20Pre--Release-TBD-green?style=for-the-badge)
+
+![badgephp](https://img.shields.io/badge/PHP-7.3.27--1-blue?style=for-the-badge&logo=PHP)
+![badgerasbpian](https://img.shields.io/badge/Raspbian%20GNU%2FLinux-10%20(Buster)-red?style=for-the-badge&logo=Linux)
+![badgepi](https://img.shields.io/badge/Raspberry%20Pi-3%20Model%20B%2B-orange?style=for-the-badge&logo=Raspberry-Pi)
+![](https://img.shields.io/badge/MySQL-Ver%2015.1-brightgreen?style=for-the-badge&logo=MySQL)
+
  _With the help of a RaspberryPI you can make your Audio Hi-FI System Smart!_
 
 ## Description
@@ -33,7 +41,6 @@ If you don't have an account you can register here (email is used only for the p
 ### Other features coming soon...
 
 ## Roadmap
-Last uploaded on 25/03/2021 12:51
 
 ### ![bar.png](https://progress-bar.dev/100/?width=100) - v0.1 Created Registration and Login System with MySQL Database - 
 - ![bar.png](https://progress-bar.dev/100/?width=200) Database (MySQL)
