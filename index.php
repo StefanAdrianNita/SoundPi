@@ -179,7 +179,7 @@ session_start();
             }
         }
         //IF USER GOES TO UPLOAD (SHOW UPLOAD PAGE)
-        if ($_GET["k"] == "Upload") {
+        if ($_GET["k"] == "upload") {
             echo "
                     <div class='container-fluid text-center pt-2 pb-2 desktopversion'>
                         <p class='profiletext' style='font-size:60px;'>Upload</p>
@@ -236,6 +236,9 @@ session_start();
                     </div>
                     ";
         }
+        if ($_GET["k"] == "albums"){
+
+        }
     }
     ?>
     <!-- BOTTOM BAR (SONGS ALBUMS UPLOAD PROFILE)-->
@@ -247,7 +250,7 @@ session_start();
             <a href="index.php?k=albums" class="btn-link">Albums</a>
         </div>
         <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
-            <a href="index.php?k=Upload" class="btn-link">Upload</a>
+            <a href="index.php?k=upload" class="btn-link">Upload</a>
         </div>
         <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
             <a href="index.php?k=profile" class="btn-link">Profile</a>

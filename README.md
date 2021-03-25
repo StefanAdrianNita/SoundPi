@@ -10,13 +10,13 @@
  _With the help of a RaspberryPi you can make your Audio Hi-FI System Smart!_
 
 ## Description
-This project was born to help people with old Hi-Fi Audio Systems with the problem of always needing an AUX cord connected to the phone or to always get up and go to the system to change the song.
+This project was born to help people with old Hi-Fi Audio Systems with the problems of always needing an AUX cord connected to the phone or getting up to change the song manually.
 
-With SoundPi you can leave the work to your Raspberry Pi for:
+With SoundPi you can leave some work up to your Raspberry Pi, like:
 
 - Keeping your songs in an organized database
-- Organize your albums/songs and playlists
-- Keep track of your or your family favorite songs and playlists
+- Organizing your albums,songs and playlists
+- Keeping track of your or your family’s favorite songs and playlists
 
 ## Installation
 
@@ -28,14 +28,14 @@ Using SoundPi is just a URL away!
 Get your phone or any device that has a browser and a wifi connection and go to your Pi local IP (192.168.1.xx).
 
 ![bottombar.png](https://github.com/StefanAdrianNita/SoundPi/blob/master/repo-images/bottombar.png?raw=true)
- - Songs: Contains the list of all the songs that were uploaded to SoundPi from all the users.
- - Albums: Contains the list of all the albums created by all the users (every album needs to be added here).
+ - Songs: Contains a list of all the songs that were uploaded to SoundPi from all the family members.
+ - Albums: Contains a list of all the albums created by all the family members (every album needs to be added here).
 
  ![upload.png](https://github.com/StefanAdrianNita/SoundPi/blob/master/repo-images/upload.png?raw=true)
  - Upload: Here all the users can upload their audio files (supports MP3 and FLAC) specifing metadata like Artist, Title, Year and Album(This is created in the "Albums" page).
 
  ![profile.png](https://github.com/StefanAdrianNita/SoundPi/blob/master/repo-images/profilelogregister.png?raw=true)
-  - Profile: Contains the user control panel where you can find your favorite songs/albums or your private playlists
+  - Profile: Contains the user's control panel where you can find your favorite songs,albums or private playlists
 
 If you don't have an account you can register here (email is used only for the password recover "still work in progess").
 
