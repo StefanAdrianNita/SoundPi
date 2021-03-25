@@ -69,20 +69,4 @@
         </div>
     </div>
 
-    <div class="container-fluid d-flex justify-content-between fixed-bottom bottombar">
-        <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
-            <a href="../index.php?k=songs" class="btn-link">My Songs</a>
-        </div>
-        <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
-            <a href="../index.php?k=albums" class="btn-link">Albums</a>
-        </div>
-        <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
-            <a href="../index.php?k=upload" class="btn-link">Upload</a>
-        </div>
-        <div class="bottombar-btn pt-2 pb-2 pl-2 pr-2">
-            <a href="../index.php?k=profile" class="btn-link">Profile</a>
-        </div>
-    </div>
-</body>
-
-</html>
+    <?php include '../templates/bottombar.html'; ?>

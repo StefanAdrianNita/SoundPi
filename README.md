@@ -54,10 +54,10 @@ If you don't have an account you can register here (email is used only for the p
 
 ### ![bar.png](https://progress-bar.dev/25/?width=100) - v0.3 Albums Upload and Managements 
 - ![bar.png](https://progress-bar.dev/100/?width=200) Database (MySQL)
-- ![bar.png](https://progress-bar.dev/20/?width=200) Albums Catalog Page (HTML/CSS/JS)
+- ![bar.png](https://progress-bar.dev/100/?width=200) Albums Catalog Page (HTML/CSS/JS)
 - ![bar.png](https://progress-bar.dev/0/?width=200) "Add Album" page (HTML/CSS/JS)
 - ![bar.png](https://progress-bar.dev/0/?width=200) Albums Adding Script connection to Database
-- ![bar.png](https://progress-bar.dev/0/?width=200) Show database results to "Albums" Page
+- ![bar.png](https://progress-bar.dev/100/?width=200) Show database results to "Albums" Page
 
 ### ![bar.png](https://progress-bar.dev/50/?width=100) - v0.4 Song Upload
 - ![bar.png](https://progress-bar.dev/100/?width=200) Database (MySQL)
