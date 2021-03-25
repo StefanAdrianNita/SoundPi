@@ -1,5 +1,6 @@
-<div class='container-fluid text-center pt-2 pb-2 desktopversion'>
+<div class='container-fluid text-center pt-2 desktopversion'>
     <p class='profiletext' style='font-size:60px;'>Albums</p>
+    <a href="index.php?k=albums&cmd=add" class='profiletext addnewalbum' style='font-size:20px;'>Add new album</a>
     <div class='container-fluid d-flex justify-content-center pt-2'>
         <?php
         $conn = new mysqli("localhost", "admin", "1234", "SoundPi");
