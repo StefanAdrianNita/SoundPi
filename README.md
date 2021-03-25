@@ -7,7 +7,7 @@
 ![badgepi](https://img.shields.io/badge/Raspberry%20Pi-3%20Model%20B%2B-orange?style=for-the-badge&logo=Raspberry-Pi)
 ![](https://img.shields.io/badge/MySQL-Ver%2015.1-brightgreen?style=for-the-badge&logo=MySQL)
 
- _With the help of a RaspberryPI you can make your Audio Hi-FI System Smart!_
+ _With the help of a RaspberryPi you can make your Audio Hi-FI System Smart!_
 
 ## Description
 This project was born to help people with old Hi-Fi Audio Systems with the problem of always needing an AUX cord connected to the phone or to always get up and go to the system to change the song.
