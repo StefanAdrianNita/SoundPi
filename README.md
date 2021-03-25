@@ -21,6 +21,7 @@ With SoundPi you can leave the work to your Raspberry Pi for:
 ## Installation
 
 _Work in progress_
+At the moment there isn't any type of installer for this project, stay tuned for updates!
 
 ## Usage
 Using SoundPi is just a URL away!
