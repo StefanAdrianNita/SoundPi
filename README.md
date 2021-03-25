@@ -1,6 +1,6 @@
 # SoundPi
-![lastupdate](https://img.shields.io/badge/Last%20commit-25--03--2021-yellow?style=for-the-badge)
-![lastupdate](https://img.shields.io/badge/Last%20Pre--Release-TBD-green?style=for-the-badge)
+![lastupdate](https://img.shields.io/github/last-commit/StefanAdrianNita/SoundPi?style=for-the-badge)
+![license](https://img.shields.io/github/license/StefanAdrianNita/SoundPi?style=for-the-badge)
 
 ![badgephp](https://img.shields.io/badge/PHP-7.3.27--1-blue?style=for-the-badge&logo=PHP)
 ![badgerasbpian](https://img.shields.io/badge/Raspbian%20GNU%2FLinux-10%20(Buster)-red?style=for-the-badge&logo=Linux)
