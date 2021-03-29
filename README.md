@@ -52,10 +52,10 @@ If you don't have an account you can register here (email is used only for the p
 
 ### ![bar.png](https://progress-bar.dev/100/?width=100) - v0.2 Created Sessions System 
 
-### ![bar.png](https://progress-bar.dev/70/?width=100) - v0.3 Albums Upload and Managements 
+### ![bar.png](https://progress-bar.dev/90/?width=100) - v0.3 Albums Upload and Managements 
 - ![bar.png](https://progress-bar.dev/100/?width=200) Database (MySQL)
 - ![bar.png](https://progress-bar.dev/100/?width=200) Albums Catalog Page (HTML/CSS/JS)
-- ![bar.png](https://progress-bar.dev/0/?width=200) "Add Album" page (HTML/CSS/JS)
+- ![bar.png](https://progress-bar.dev/100/?width=200) "Add Album" page (HTML/CSS/JS)
 - ![bar.png](https://progress-bar.dev/0/?width=200) Albums Adding Script connection to Database
 - ![bar.png](https://progress-bar.dev/100/?width=200) Show database results to "Albums" Page
 
@@ -64,3 +64,10 @@ If you don't have an account you can register here (email is used only for the p
 - ![bar.png](https://progress-bar.dev/100/?width=200) Upload Page (HTML/CSS/JS)
 - ![bar.png](https://progress-bar.dev/0/?width=200) Song Upload Script connection to Database
 - ![bar.png](https://progress-bar.dev/0/?width=200) Show songs in "Songs" page
+
+### ![bar.png](https://progress-bar.dev/70/?width=100) - v0.5 Music Player
+- ![bar.png](https://progress-bar.dev/50/?width=200) Media Player Bar
+- ![bar.png](https://progress-bar.dev/100/?width=200) Python Server and JS Client Socket Connection
+- ![bar.png](https://progress-bar.dev/50/?width=200) Python Server and JS Client Socket Features
+
+## SoundPi v1.0 Released!

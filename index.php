@@ -41,12 +41,16 @@
                 include 'templates/upload/desktop_upload.php';
             }
             if ($_GET["k"] == "albums") {
-                include 'templates/albums/desktop_albums.php';
+                if ($_GET["cmd"] == "add") {
+                    include 'templates/albums/desktop_addalbums.php';
+                } else {
+                    include 'templates/albums/desktop_albums.php';
+                }
             }
             if ($_GET["k"] == "songs") {
             }
         }
     }
-
+    include 'templates/mediaplayer.html';
     include 'templates/bottombar.html';
     ?>

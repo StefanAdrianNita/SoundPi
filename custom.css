@@ -35,7 +35,7 @@ body {
 .btn-link {
   color: white;
   font-family: "Abel", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -236,4 +236,25 @@ tr:hover {
   text-decoration: underline;
   color: #0099ff;
   transition: 0.3s;
+}
+
+.mediaplayer-icon{
+  font-size: 30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffff;
+  transition: 0.3s;
+}
+
+.mediaplayer-icon:hover{
+  color: #0099ff;
+  transition: 0.3s;
+}
+
+.mediabtn{
+  background-color: #111111;
+  outline: none;
+  border: 0px none;
 }
