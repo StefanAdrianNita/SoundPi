@@ -1,0 +1,265 @@
+root {
+  --bg: #111111;
+  --pr: #0099ff;
+}
+
+body {
+  background-color: #111111;
+}
+
+.titlebar {
+  border-bottom: 3px solid #232323;
+}
+
+.titlebar-title {
+  color: white;
+  font-family: "Abel", sans-serif;
+  font-size: 40px;
+}
+
+.bottombar {
+  border-bottom: 3px solid #0099ff;
+  background-color: #111111;
+}
+
+.mediaplayerbar {
+  border-top: 3px solid #0099ff;
+  background-color: #111111;
+}
+
+.bottombar-btn{
+  transition: 0.3s;
+}
+
+.bottombar-btn:hover {
+  background-color: #0099ff;
+  color: #111111;
+  transition: 0.3s;
+}
+
+.btn-link {
+  color: white;
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+  color: #111111;
+  transition: 0.3s;
+}
+
+.profiletext {
+  color: white;
+  font-family: "Abel", sans-serif;
+  font-size: 25px;
+}
+
+.loginbtn {
+  background-color: #0099ff;
+  color: #111111;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Abel", sans-serif;
+  border-radius: 5px;
+  border: 2px solid #0099ff;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.loginbtn:hover {
+  background-color: #111111;
+  color: #0099ff;
+  border: 2px solid #0099ff;
+  border-radius: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Abel", sans-serif;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+input[type="text"] {
+  background-color: #111111;
+  border: 2px solid #b0b0b0;
+  color: gray;
+  border-radius: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-family: "Abel", sans-serif;
+  transition: 0.3s;
+}
+
+input[type="text"]:hover{
+  border: 2px solid #0099ff;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-radius: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  color: white;
+  border: 2px solid #0099ff;
+  outline: none;
+  font-family: "Abel", sans-serif;
+  transition: 0.3s;
+}
+
+input[type="password"] {
+  background-color: #111111;
+  border: 2px solid #b0b0b0;
+  color: gray;
+  border-radius: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-family: "Abel", sans-serif;
+  transition: 0.3s;
+}
+
+input[type="password"]:focus {
+  border-radius: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  color: white;
+  border: 2px solid #0099ff;
+  outline: none;
+  font-family: "Abel", sans-serif;
+  transition: 0.3s;
+}
+
+input[type="password"]:hover{
+  border: 2px solid #0099ff;
+  transition: 0.3s;
+}
+
+input[type="submit"] {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: #0099ff;
+  border: 2px solid #0099ff;
+  border-radius: 5px;
+  outline: none;
+  font-family: "Abel", sans-serif;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: #111111;
+  border: 2px solid #0099ff;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  font-family: "Abel", sans-serif;
+  transition: 0.3s;
+}
+
+.albumselection {
+  font-family: "Abel", sans-serif;
+  width: 250px;
+  height: 30px;
+  background-color: #111111;
+  border: 2px solid #b0b0b0;
+  color: grey;
+  border-radius: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.albumselection:hover{
+  border: 2px solid #0099ff;
+  transition: 0.3s;
+}
+
+input[type="submit"]:disabled {
+  border-radius: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: gray;
+  border: 2px solid gray;
+  color: #111111;
+  border-radius: 3px;
+  outline: none;
+  font-family: "Abel", sans-serif;
+}
+
+.mobileversion {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .desktopversion {
+    display: none;
+  }
+  .mobileversion {
+    display: block;
+  }
+}
+
+th {
+  font-family: "Abel", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  height: 100px;
+}
+
+td {
+  font-family: "Abel", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  height: 100px;
+}
+
+tr{
+  transition: 0.3s;
+}
+
+tr:hover {
+  background-color: #232323;
+  transition: 0.3s;
+}
+
+.addnewalbum:hover{
+  text-decoration: underline;
+  color: #0099ff;
+  transition: 0.3s;
+}
+
+.mediaplayer-icon{
+  font-size: 30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffff;
+  transition: 0.3s;
+}
+
+.mediaplayer-icon:hover{
+  color: #0099ff;
+  transition: 0.3s;
+}
+
+.mediabtn{
+  background-color: #111111;
+  outline: none;
+  border: 0px none;
+}

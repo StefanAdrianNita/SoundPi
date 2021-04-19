@@ -1,0 +1,47 @@
+<script>
+    var socket = new WebSocket("ws://192.168.1.6:6969");
+
+    socket.onmessage = function (event) {
+        console.log(event.data);
+        string = event.data.toString();
+        string = string.split(".");
+        console.log(string);
+        if(string[0]  == "1"){
+            if(string[1] == "none"){
+                console.log("Music Not Playing...")
+                document.getElementById("play/pause").innerHTML = '<i class="fas fa-play mediaplayer-icon"></i>';
+            }
+            if(string[1] == "playing"){
+                console.log("Music Playing...")
+                document.getElementById("play/pause").innerHTML = '<i class="fas fa-pause"></i>';
+            }
+        }
+        if(string[0] == "2"){
+            if(string[1] == ""){
+                document.getElementById("media-text").innerHTML = '...';
+            }
+        }
+
+        if(string[0] == "3"){
+            value = parseInt(string[1]);
+            document.getElementById("vol-control").value = value;
+        }
+    }
+</script>
+
+
+<div class="container-fluid fixed-bottom mediaplayerbar">
+    <div>
+        <marquee behavior="scroll" direction="left" class="profiletext" id="media-text" >.</marquee>
+    </div>
+    <div class="row pt-2 pb-2">
+        <div class="col d-flex justify-content-center">
+                <button class="mediabtn" id="back"><i class="fas fa-fast-backward mediaplayer-icon"></i></button>
+                <button class="mediabtn" id="play/pause"><i class="fas fa-play mediaplayer-icon"></i></button>
+                <button class="mediabtn" id="forward"><i class="fas fa-fast-forward mediaplayer-icon"></i></button>
+        </div>
+        <div class="col pl-5">
+            <input id="vol-control" type="range" min="0" max="14" step="1"></input>
+        </div>
+    </div>
+</div>

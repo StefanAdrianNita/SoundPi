@@ -15,7 +15,7 @@ This project was born to help people with old Hi-Fi Audio Systems with the probl
 With SoundPi you can leave some work up to your Raspberry Pi, like:
 
 - Keeping your songs in an organized database
-- Organizing your albums,songs and playlists
+- Organizing your albums, songs and playlists
 - Keeping track of your or your family’s favorite songs and playlists
 
 ## Installation
@@ -27,47 +27,10 @@ At the moment there isn't any type of installer for this project, stay tuned for
 Using SoundPi is just a URL away!
 Get your phone or any device that has a browser and a wifi connection and go to your Pi local IP (192.168.1.xx).
 
-![bottombar.png](https://github.com/StefanAdrianNita/SoundPi/blob/master/repo-images/bottombar.png?raw=true)
- - Songs: Contains a list of all the songs that were uploaded to SoundPi from all the family members.
- - Albums: Contains a list of all the albums created by all the family members (every album needs to be added here).
 
- ![upload.png](https://github.com/StefanAdrianNita/SoundPi/blob/master/repo-images/upload.png?raw=true)
- - Upload: Here all the users can upload their audio files (supports MP3 and FLAC) specifing metadata like Artist, Title, Year and Album(This is created in the "Albums" page).
-
- ![profile.png](https://github.com/StefanAdrianNita/SoundPi/blob/master/repo-images/profilelogregister.png?raw=true)
-  - Profile: Contains the user's control panel where you can find your favorite songs,albums or private playlists
-
-If you don't have an account you can register here (email is used only for the password recover "still work in progess").
 
 ### Other features coming soon...
 
 ## Roadmap
 
-### ![bar.png](https://progress-bar.dev/100/?width=100) - v0.1 Created Registration and Login System with MySQL Database - 
-- ![bar.png](https://progress-bar.dev/100/?width=200) Database (MySQL)
-- ![bar.png](https://progress-bar.dev/100/?width=200) Registration Page (HTML/CSS/JS)
-- ![bar.png](https://progress-bar.dev/100/?width=200) Login Page (HTML/CSS/JS)
-- ![bar.png](https://progress-bar.dev/100/?width=200) Registration Script (user/Register.php)
-- ![bar.png](https://progress-bar.dev/100/?width=200) Login Script (user/Login.php)
-
-### ![bar.png](https://progress-bar.dev/100/?width=100) - v0.2 Created Sessions System 
-
-### ![bar.png](https://progress-bar.dev/90/?width=100) - v0.3 Albums Upload and Managements 
-- ![bar.png](https://progress-bar.dev/100/?width=200) Database (MySQL)
-- ![bar.png](https://progress-bar.dev/100/?width=200) Albums Catalog Page (HTML/CSS/JS)
-- ![bar.png](https://progress-bar.dev/100/?width=200) "Add Album" page (HTML/CSS/JS)
-- ![bar.png](https://progress-bar.dev/0/?width=200) Albums Adding Script connection to Database
-- ![bar.png](https://progress-bar.dev/100/?width=200) Show database results to "Albums" Page
-
-### ![bar.png](https://progress-bar.dev/50/?width=100) - v0.4 Song Upload
-- ![bar.png](https://progress-bar.dev/100/?width=200) Database (MySQL)
-- ![bar.png](https://progress-bar.dev/100/?width=200) Upload Page (HTML/CSS/JS)
-- ![bar.png](https://progress-bar.dev/0/?width=200) Song Upload Script connection to Database
-- ![bar.png](https://progress-bar.dev/0/?width=200) Show songs in "Songs" page
-
-### ![bar.png](https://progress-bar.dev/70/?width=100) - v0.5 Music Player
-- ![bar.png](https://progress-bar.dev/50/?width=200) Media Player Bar
-- ![bar.png](https://progress-bar.dev/100/?width=200) Python Server and JS Client Socket Connection
-- ![bar.png](https://progress-bar.dev/50/?width=200) Python Server and JS Client Socket Features
-
-## SoundPi v1.0 Released!
+### ![bar.png](https://progress-bar.dev/100/?width=300) - v1.0
