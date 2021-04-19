@@ -21,7 +21,6 @@
                                 <input type='submit' name='submit'  value='Confirm' id='submit'/>
                                 <br>
                                 <br>
-                                <p>.</p>
                             </form>
                         </div>
                     </div>

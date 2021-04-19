@@ -1,0 +1,46 @@
+:root {
+    --p1: #439BFF;
+    --tx: #FFFFFF;
+    --bg: #0A0A0B;
+    --p2: #F8F32B;
+}
+
+body{
+    background-color: #0A0A0B;
+    color: #FFFFFF;
+}
+.topbar{
+    border-bottom: 3px solid #F8F32B;
+    background-color: #439BFF;
+}
+
+.topbar-btn{
+    text-align: center;
+    height: 50px;
+}
+
+.topbar-link{
+    display: block;
+    height: 100%;
+    font-size: 22px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #FFFFFF;
+    transition: 0.3s;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.topbar-link:hover{
+    text-decoration: none;
+    background-color: #F8F32B;
+    color: #0A0A0B;
+    padding-top: 10px;
+    transition: 0.3s;
+}
+
+.active{
+    background-color: #F8F32B;
+    color: #0A0A0B;
+}

@@ -1,0 +1,46 @@
+<script>
+    var socket = new WebSocket("ws://192.168.1.6:6969");
+
+    socket.onmessage = function (event) {
+        console.log(event.data);
+        string = event.data.toString();
+        string = string.split(".");
+        console.log(string);
+        if(string[0]  == "1"){
+            if(string[1] == "none"){
+                console.log("Music Not Playing...")
+                document.getElementById("play/pause").innerHTML = '<i class="fas fa-stop"></i>';
+            }
+            if(string[1] == "playing"){
+                console.log("Music Playing...")
+                document.getElementById("play/pause").innerHTML = '<i class="fas fa-pause"></i>';
+            }
+        }
+        if(string[0] == "2"){
+            if(string[1] == ""){
+                document.getElementById("scrolltext").innerHTML = 'Artist - Title';
+            }
+        }
+
+        if(string[0] == "3"){
+            value = parseInt(string[1]);
+            document.getElementById("vol-control").value = value;
+        }
+    }
+</script>
+
+<div class="container-fluid fixed-bottom bottombar">
+    <div class="container textdisplay mt-2 mb-2">
+        <marquee id="scrolltext">Artist - Title</marquee>
+    </div>
+    <div class="container d-flex justify-content-around pb-2">
+        <div>
+            <button class="mediabtn p-2 ml-2 mr-2" id="back"><i class="fas fa-fast-backward"></i></button>
+            <button class="mediabtn p-2 ml-2 mr-2" id="play/pause"><i class="fas fa-stop"></i></button>
+            <button class="mediabtn p-2 ml-2 mr-2" id="forward"><i class="fas fa-fast-forward"></i></button>
+        </div>
+        <div class="slidercontainer">
+            <input class="mt-3 slider" id="vol-control" type="range" min="0" max="14" step="1"></input>
+        </div>
+    </div>
+</div>

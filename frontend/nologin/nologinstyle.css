@@ -1,0 +1,124 @@
+:root {
+    --p1: #439BFF;
+    --tx: #FFFFFF;
+    --bg: #0A0A0B;
+    --p2: #F8F32B;
+}
+
+.nologintext{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.loginbtn{
+    background-color: #F8F32B;
+    color: #0A0A0B;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    border: 2px solid #0A0A0B;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.loginbtn:hover {
+    background-color: #0A0A0B;
+    color: #439BFF;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    border: 2px solid #439BFF;
+    transition: 0.3s;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  input[type="text"] {
+    background-color: #111111;
+    border: 2px solid #b0b0b0;
+    color: gray;
+    border-radius: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-family: "Abel", sans-serif;
+    transition: 0.3s;
+  }
+  
+  input[type="text"]:hover{
+    border: 2px solid #0099ff;
+    transition: 0.3s;
+  }
+  
+  input[type="text"]:focus {
+    border-radius: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: white;
+    border: 2px solid #0099ff;
+    outline: none;
+    font-family: "Abel", sans-serif;
+    transition: 0.3s;
+  }
+  
+  input[type="password"] {
+    background-color: #111111;
+    border: 2px solid #b0b0b0;
+    color: gray;
+    border-radius: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-family: "Abel", sans-serif;
+    transition: 0.3s;
+  }
+  
+  input[type="password"]:focus {
+    border-radius: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: white;
+    border: 2px solid #0099ff;
+    outline: none;
+    font-family: "Abel", sans-serif;
+    transition: 0.3s;
+  }
+  
+  input[type="password"]:hover{
+    border: 2px solid #0099ff;
+    transition: 0.3s;
+  }
+  
+  input[type="submit"] {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: #0099ff;
+    border: 2px solid #0099ff;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Abel", sans-serif;
+    transition: 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: #111111;
+    border: 2px solid #0099ff;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Abel", sans-serif;
+    transition: 0.3s;
+  }
